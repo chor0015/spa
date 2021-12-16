@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Actors Search</title>
+  </head>
+
+
+  <body>
+    <header>
+        <div class="container-header">
+              <div class="col">
+                <div class="col row">
+                  <a class="logo" href="/"><img src="./img/tmdb_logo.svg" alt="logo"></a> 
+                    <h1 id="pageTitle">Actor Search</h1>
+                </div>
+
+                <form>
+                  <div class="input-field row">
+                      <input type="search" id="search" placeholder="Actor Name" class="" />
+                      <button id="btnSearch">
+                        <img src="img/magnifying-glass.svg"/>
+                      </button>
+                  </div>
+                </form>
+
+                <div id="sortDiv">
+                  <div class="sort">
+                    <span>Sort by:</span>
+                    <a id="nameSort" class="sort-type">
+                      Name
+                      <span id="name-sort-arr">&#8593;</span>
+                    </a>
+                    <a id="popSort" class="sort-type">
+                      Popularity
+                      <span id="pop-sort-arr">&#8593;</span>
+                    </a>
+                  </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+        <section id="instructions" class="container">
+          <h2>How to Start</h2>
+          <div class="content">
+              <p>
+                Enter an actor's name in the search box at the top of the screen and
+                click on the search icon.
+              </p>
+              <p>
+                You will be shown a list of actors whose name matches what you
+                typed.
+              </p>
+              <p>
+                Clicking on an actor's card will load a list of movies and
+                shows that they are best known for.
+              </p>
+          </div>
+        </section>
+
+        <section>
+          <div id="loader" ></div>
+        </section>
+
+        <section id="actors" class="container">
+          <h2 >Actors</h2>
+          <div id="actorsCardContainer" class="col">
+              <p>Content grid will go here</p>
+              <p>Content grid will go here</p>
+              <p>Content grid will go here</p>
+              <p>Content grid will go here</p>
+          </div>
+        </section>
+
+        <section>
+          <div id="media" class="col container">
+            <div id="mediaCardContainer" class="col">
+          </div>
+              
+          </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
