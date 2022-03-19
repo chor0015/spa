@@ -7,6 +7,6 @@
 
 You can sort search results alphabetically or by popularity.
 
-## [DEMO]() &nbsp; :arrow_right:
+## [DEMO](https://cocky-swanson-9b3005.netlify.app/) &nbsp; :arrow_right:
 
 ![This is an image](./img/spa.gif)
